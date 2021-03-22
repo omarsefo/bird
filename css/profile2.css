@@ -5,7 +5,18 @@ background: linear-gradient(to right, #FFFDE4, #005AA7);  */
 background-color: #c4c4c4;
 
 }
-
+.spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999999999999;
+    background-color: #f1f2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .woo{
     display: flex;
     justify-content: center;
