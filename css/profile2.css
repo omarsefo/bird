@@ -1,9 +1,5 @@
 body{
-    /* background: #005AA7; 
-background: -webkit-linear-gradient(to left, #FFFDE4, #005AA7); 
-background: linear-gradient(to right, #FFFDE4, #005AA7);  */
-background-color: #c4c4c4;
-
+background-color: #f1f2f3;
 }
 .spinner {
     position: fixed;
@@ -17,6 +13,7 @@ background-color: #c4c4c4;
     justify-content: center;
     align-items: center;
 }
+
 .woo{
     display: flex;
     justify-content: center;
@@ -56,3 +53,23 @@ footer img:hover{
         width: 100%;
     }
 }
+@media (min-width:768px) and (max-width:850px){
+  .heg{
+      height: 35%;
+  }
+}
+@media (min-width:851px) and (max-width:1050px){
+    .heg{
+        height: 44%;
+    }
+  }
+  @media (min-width:1051px) and (max-width:1350px){
+    .heg{
+        height: 50%;
+    }
+  }
+  @media (min-width:1351px) and (max-width:1530px){
+    .heg{
+        height: 55%;
+    }
+  }

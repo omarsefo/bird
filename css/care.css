@@ -4,8 +4,8 @@ body {
     color: #252525;
 }
 .imge{
-  width: 500px;
-  height: 450px;
+  width: 100%;
+  height: 85%;
   
 }
 .spinner {
@@ -105,10 +105,6 @@ body {
   }
   
   @media only screen and (max-width:500px) and (min-width:50px){
-     .imge{
-       width: 100%;
-       height: 100%;
-     }
      .na{
        width: 100%;
      }
