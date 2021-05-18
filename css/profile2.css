@@ -13,6 +13,10 @@ background-color: #818181;
     justify-content: center;
     align-items: center;
   }
+.navbar.sticky{
+transition: all 0.5s ease;
+transform: translateY(-56px);
+}
 
 .woo{
     display: flex;
@@ -21,7 +25,6 @@ background-color: #818181;
 }
 .art{
     margin-top: 35px;
-   
 }
 .marg{
     margin-right: 0;
