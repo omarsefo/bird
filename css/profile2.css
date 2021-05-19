@@ -8,7 +8,7 @@ background-color: #818181;
     right: 0;
     bottom: 0;
     z-index: 999999999999999;
-    background-color: #f1f2f3;
+    background:repeating-linear-gradient(60deg ,#fff,#999,#fff 4px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,35 @@ footer{
     justify-content: center;
     background-color: #c4c4c4;
 }
+footer .ico a{
+    margin-top: 16px;
+    margin-left: 15px;
+    font-size: 33px;
+    text-decoration: none;
+}
+    footer .ico a:hover{
+        transform: rotate(350deg);
+        transition: all 0.7s ease;
+      }
+      footer .ico .f1{
+      color:rgb(0, 179, 170);;
+      }
+      footer .ico .f2{
+        color:rgb(0, 140, 255);
+        }
+        footer .ico .f3{
+          color:rgb(255, 0, 55);
+        }
+          footer .ico .f4{
+            color:rgb(0, 78, 141);
+            }
+            footer .ico .f5{
+              color:rgb(240, 0, 0);
+              }
+              footer .ico .f6{
+                color:#333;
+                }
+/* 
 footer img{
      width: 45px;
      margin-top: 15px;
@@ -50,7 +79,7 @@ footer img{
 }
 footer img:hover{
     width: 55px;
-}
+} */
 @media only screen and (max-width:500px) and (min-width:50px){
     .na{
         width: 100%;

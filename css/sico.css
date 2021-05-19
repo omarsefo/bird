@@ -5,7 +5,7 @@
     right: 0;
     bottom: 0;
     z-index: 999999999999999;
-    background-color: #f1f2f3;
+    background:repeating-linear-gradient(60deg ,#fff,#807a7a,#fff 4px);
     display: flex;
     justify-content: center;
     align-items: center;

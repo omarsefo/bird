@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", spinner());
 function spinner(){
     setTimeout(function() {
         document.querySelector(".spinner").style.display = "none";
-    },6000)
+    },1000)
 }
 var btn =document.getElementById('btn');
 
