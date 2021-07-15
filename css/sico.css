@@ -5,8 +5,25 @@
     right: 0;
     bottom: 0;
     z-index: 999999999999999;
-    background:repeating-linear-gradient(60deg ,#fff,#807a7a,#fff 4px);
+    background:repeating-linear-gradient(60deg ,#111,#444,#111 4px);
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  body{
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+  .textr{
+    color: #fff !important;
+  }
+  .dropdown-menu{
+    background-color: #333 !important;
+  }
+  .dropdown-item{
+    color: #fff !important;
+    background-color: #333 !important;
+  }
+  .dropdown-item:hover{
+    background-color: #666 !important;
   }

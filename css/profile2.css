@@ -8,7 +8,7 @@ background-color: #818181;
     right: 0;
     bottom: 0;
     z-index: 999999999999999;
-    background:repeating-linear-gradient(60deg ,#fff,#999,#fff 4px);
+    background:repeating-linear-gradient(60deg ,#111,#444,#111 4px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,25 @@ background-color: #818181;
 transition: all 0.5s ease;
 transform: translateY(-56px);
 }
-
+.card-body{
+  background-color: #333;
+  color: #fff;
+}
+.card-footer{
+  background-color: #333;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255);
+}
+.dropdown-menu{
+  background-color: #333 !important;
+}
+.dropdown-item{
+  color: #fff !important;
+  background-color: #333 !important;
+}
+.dropdown-item:hover{
+  background-color: #666 !important;
+}
 .woo{
     display: flex;
     justify-content: center;
@@ -40,7 +58,7 @@ footer{
     border-top: 1px solid white;
     display: flex;
     justify-content: center;
-    background-color: #c4c4c4;
+    background-color: #070707;
 }
 footer .ico a{
     margin-top: 16px;
